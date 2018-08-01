@@ -1,0 +1,85 @@
+#banner {
+  background-image: url("images/banner.jpg");
+  padding: 214px 0;
+  color: white;
+}
+
+#banner p {
+  font-size: 30px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #a0a0a0;
+  font-size: 27px;
+  line-height: 43px;
+  font-weight: 400;
+}
+
+.content p {
+  color: #494949;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.content {
+  padding-top: 33px;
+}
+
+.link-medium {
+  background-color: rgba(233, 253, 240, 1);
+  text-decoration: none;
+  color: #494949;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-color: rgba(125, 255, 179, 1);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
